@@ -1,2 +1,0 @@
-git add main.tf vpc.tf security.tf instances.tf deploy.yml scripts/setup_public.sh scripts/setup_private.sh
-git commit -m "feat: setup demo architecture"
