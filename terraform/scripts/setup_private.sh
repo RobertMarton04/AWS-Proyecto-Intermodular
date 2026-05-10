@@ -20,6 +20,8 @@ services:
       - POSTGRES_DB=nextcloud
       - POSTGRES_USER=nextcloud
       - POSTGRES_PASSWORD=nc_pass
+      - NEXTCLOUD_ADMIN_USER=admin
+      - NEXTCLOUD_ADMIN_PASSWORD=ProyectoNC123
       - NEXTCLOUD_TRUSTED_DOMAINS=*
 EOF
 docker compose up -d
